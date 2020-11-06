@@ -1,3 +1,3 @@
-# .NET Conf 2019 - HCMC
+# .NET Conf 2020 - HCMC
 
- https://devcafevn.github.io/dotnetconf2019
+ https://devcafevn.github.io/dotnetconf2020
