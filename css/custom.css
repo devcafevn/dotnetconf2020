@@ -1,0 +1,201 @@
+﻿header {
+    background: url(../images/backgroud.jpg) center center;
+    background-size: cover;
+    height: 720px;
+}
+
+header .navbar .navbar-brand {
+    color:white;
+    font-size: 24px;
+}
+
+header .navbar .navbar-brand:focus {
+    color:white;
+}
+
+header .navbar .navbar-brand:hover {
+    color:white;
+}
+
+header .navbar.scrolled .navbar-brand {
+    color: #672f81;
+}
+
+.header-text {
+    padding-top: 102px;
+    color: white;
+}
+
+
+.header-name {
+    padding: 0px 20px;
+    width: 450px;
+    font-size: 60px;
+    font-weight: bold;
+    background: rgba(182, 12, 204, 0.8);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.header-info {
+    margin-top: 5px;
+    padding: 0 10px;
+    font-size: 27px;
+    width: 450px;
+    background: rgba(231, 155, 13, 0.8);
+    border-radius: 5px;
+}
+
+.event-date {
+    color: coral;
+}
+
+
+footer a{
+    color:white;
+}
+
+.timer-simple {
+    display: table;
+    width: 100%;
+    height: auto;
+    padding: 10px 0;
+    text-align: center;
+    color: #fff;
+}
+
+    .timer-simple .intro-body {
+        display: table-cell;
+        vertical-align: middle;
+        align-content: center;
+    }
+
+    .timer-simple .timer-simple-body .brand-heading {
+        font-size: 30px;
+    }
+
+    .timer-simple .timer-simple-body .intro-text {
+        font-size: 18px;
+    }
+
+.intro {
+    display: table;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: #fff;
+    padding-bottom: 60px !important;
+}
+
+    .intro .intro-body {
+        display: table-cell;
+        vertical-align: bottom;
+        align-content: center;
+    }
+
+        .intro .intro-body .brand-heading {
+            font-size: 40px;
+        }
+
+        .intro .intro-body .intro-text {
+            font-size: 18px;
+        }
+
+header .navbar-default ul.navbar-nav {
+    padding-top: 0px;
+}
+
+a.speakersocial {
+    transition: color .1s ease-in, background .1s ease-in;
+    text-decoration: none;
+    outline: 0;
+}
+
+.where-section {
+    width: 100%;
+    padding: 50px 0;
+    color: #fff;
+    background: url(../images/where.png) no-repeat center center scroll;
+    background-color: #065B8D;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+
+.icon {
+    font-size: 60px;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+
+
+.agenda {
+}
+
+    /* Dates */
+    .agenda .agenda-date {
+        width: 170px;
+    }
+
+        .agenda .agenda-date .dayofmonth {
+            width: 40px;
+            font-size: 36px;
+            line-height: 36px;
+            float: left;
+            text-align: right;
+            margin-right: 10px;
+        }
+
+        .agenda .agenda-date .shortdate {
+            font-size: 0.75em;
+        }
+
+@media (max-width: 767px) {
+}
+
+
+h4.modal-title {
+    color: #000;
+}
+
+div.modal-body {
+    color: #808080;
+}
+
+#divTimer {
+    text-align: center;
+}
+
+    #divTimer div {
+        margin: 15px;
+        display: inline-block;
+        padding: 15px;
+        min-width: 80px;
+        background-color: #fff;
+        color: #68217a;
+        font-size: 30px;
+        font-weight: 600;
+        text-align: center;
+        line-height: 1.2;
+    }
+
+        #divTimer div span {
+            display: block;
+            font-size: 14px;
+            font-weight: 400;
+        }
+
+.btn.register {
+    text-transform: uppercase;
+    background-color: #fff;
+    color: 68217a;
+    padding: 15px 55px;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.agenda-time {
+    text-align: center;
+}
